@@ -1,0 +1,255 @@
+
+
+@media screen  and (min-width: 200px) and (max-width: 800px) {
+   
+    body{
+overflow: auto;
+
+    }
+
+.ronaldo{
+
+    object-fit: contain;
+    min-width: 98%;
+    max-width: 10px;
+max-height: 200px;
+}
+ 
+ .postFooter{
+    font-size: small;
+ }
+ .facebook-logo{
+
+margin-top: 5px;      
+ }
+
+ .navbar{
+    width: 10%;
+   
+    
+ }
+.search{
+    width: 30%;
+    font-size: xx-small;
+    
+}
+.midnavbar{
+    width: 20%;
+}
+.home{
+  
+ font-size: small;
+
+}
+
+
+}
+
+.fullhead{
+    display: flex;
+    border: 3px solid #393A3B;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #242526;
+}
+
+.boxbell{
+     
+    margin-top: 20px;
+ 
+    border-radius: 25px;
+    
+    margin-left: 90px;
+}
+.boxbell:hover{
+    
+}
+
+.bell{
+    flex-grow: 1;
+   padding: 2px;
+  text-align: right;
+  color:#B8BBBF;
+   background-color: #242526;
+   border-radius: 90px;
+border: none;
+
+}
+.bell:focus{
+    background-color: #2374E1;
+   
+
+}
+
+.bell:hover{
+    background-color: #555555;
+}
+
+.facebook-logo{
+background-color:#18191A;
+color: rgb(255, 255, 255);
+/* font-size: xx-large; */
+font-size: xx-large;
+border-radius: 50px;
+background-color: #0093ff;
+/* height: 40%; */
+/* min-height: 20%; */
+}
+.search{
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    width: 50%;
+    border: 2px solid  gray ;
+ 
+}
+
+.search:focus{
+background-color:rgb(67, 67, 67);
+}
+.navbar{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border:transparent;
+    width: 30%;
+    float: left;
+
+
+}
+.home{
+   color:#B8BBBF;
+   background-color: #242526;
+   border-radius: 5px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+flex-grow: 1;
+   border-bottom-color: transparent;
+
+}
+.home:hover{
+   background-color: #555555;
+   border-bottom-color:  rgb(255, 227, 13) ;
+    
+    
+ 
+}
+.home:focus{
+    background-color: #2374E1;
+}
+ 
+
+.midnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+  
+    width: 40%;
+    border-bottom : 2px solid rgb(99, 99, 99);
+    
+}
+.midnavbar:active{
+   
+}
+
+ body{
+    background-color: #18191A;
+ }
+.main-box{
+ padding: 15px;
+ border: 2px solid black;
+ border-radius: 51px;
+ background-color: #242526;
+ margin: 8px;
+}
+
+
+ .img{
+    border-radius: 50px;
+    float: left;
+ }
+
+  .head{
+margin-left: 5rem;
+padding: 3px;
+}
+  .date{
+
+font-size: medium;
+color: #9B9EA2;
+
+}
+.name{
+font-size: large;
+color: #dfdfdf;
+}
+
+.text{
+
+   padding: 10px;
+color: #dfdfdf;
+    
+}
+
+.postFooter{
+    display: flex;
+    justify-content: space-around;
+text-align: center;
+width: 100%;
+color: #B8BBBF;
+border-top: 1px solid  rgb(49, 48, 48);
+margin-top: 5px;
+}
+
+.postFooter:hover{
+
+
+/* background-color: gray; */
+
+}
+
+   .button1{
+      width: 20%;
+      height: 25px;
+   
+}
+.button2{
+    width: 20%;
+    height: 25px;
+
+}
+
+.button3{
+    width: 20%;
+    height: 25px;
+
+}
+
+.button1:hover ,.button2:hover,.button3:hover{
+background-color:#3A3B3C;
+
+ border-radius: 5px;
+
+}
+.button1:active{
+background-color: #0093ff;
+}
+
+ 
+
+
+
+.rimage{
+  
+}
+
+.ronaldo{
+
+    object-fit: contain;
+    min-width: 100%;
+    max-height: 100%;
+}
